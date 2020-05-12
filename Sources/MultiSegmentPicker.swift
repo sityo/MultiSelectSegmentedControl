@@ -36,6 +36,7 @@ import SwiftUI
         uiView.isVertical =? isVertical
         uiView.isVerticalSegmentContents =? isVerticalSegmentContents
         uiView.selectedBackgroundColor =? selectedBackgroundColor
+        uiView.tintColor =? selectedBackgroundColor
     }
 
     public func makeUIView(context: UIViewRepresentableContext<MultiSegmentPicker>) -> MultiSelectSegmentedControl {
